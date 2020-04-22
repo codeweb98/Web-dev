@@ -49,6 +49,21 @@ section {
 	font-size: 125%;
 }
 
+#item1
+{
+  background-color:#FFDAB9;
+}
+
+#item2
+{
+   background-color:#CB8442;
+}
+
+#item3
+{
+  background-color:#E24C00;
+}
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
