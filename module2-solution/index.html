@@ -9,235 +9,7 @@
 	<link rel = "stylesheet" type= "text/css" href= "index.css">
 	<title>Week 2 Assignment</title>
 
-	<style>
 
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-
-body
-{
-	margin:0;
-	padding:0;
-}
-
-h1 {
-  margin-bottom: 15px;
-  color: #800000;
-  font-size:175%;
-}
-
-section {
-  background-color: #d3d3d3;
-  margin-top: 30px;
-  margin-bottom:30px;
-  height: 150px;
-  width:90%;
-  
-}
-
-.sec-text
-{
-	margin-top: 50px;
-	text-align: center;
-	color: black;
-	width:90%;
-	font-family: Comic sans;
-	font-size: 20px ;
-	clear: both;
-}
-
-.Item
-{	
-	float:right;
-	border: 1px solid black;
-	width: 70px;
-	text-align: center;
-	background-color:#FFDAB9;
-	color:black;
-	position:relative;
-	font-size: 125%;
-}
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-  postion: absolute;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid black;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-
-  #sec1
-  {
-  	margin-left: 4.17%;
-  }
-
-  #sec2
-  {
-  	margin-left: 8.33%;
-  	margin-right:8.33%;
-  }
-
-  #sec3
-  {
-  	margin-right:4.17%;
-  }
-
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-   border: 1px solid black;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-
-    #sec1
-    {
-     margin-left:4.17%;
-    }
-
-  	#sec2
-	{
-		margin-left:8.32%;
-		margin-right: 4.17%;
-	}
-
-	#sec3
-	{
-		margin-left:4.17%;
-		margin-right:4.17%;
-	}
-
-}
-
-/* Small devices*/
-
-@media (max-width: 767px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
-    border: 1px solid black;
-    margin-left:4.17%;
-	margin-right:4.17%;
-
-  }
-  .col-sm-1 {
-    width: 8.33%;
-  }
-  .col-sm-2 {
-    width: 16.66%;
-  }
-  .col-sm-3 {
-    width: 25%;
-  }
-  .col-sm-4 {
-    width: 33.33%;
-  }
-  .col-sm-5 {
-    width: 41.66%;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-  .col-sm-7 {
-    width: 58.33%;
-  }
-  .col-sm-8 {
-    width: 66.66%;
-  }
-  .col-sm-9 {
-    width: 74.99%;
-  }
-  .col-sm-10 {
-    width: 83.33%;
-  }
-  .col-sm-11 {
-    width: 91.66%;
-  }
-  .col-sm-12 {
-    width: 100%;
-  }
-}
-
-</style>
 	
 </head>
 
@@ -246,7 +18,7 @@ section {
 <br>
 <div class="row">
 	<section class="col-lg-3 col-md-5 col-sm-11" id="sec1">
-		<div class="Item">Chicken</div>
+		<div class="Item" id="item1">Chicken</div>
 
 		<div class="sec-text">
 		This section contains information about chicken items.
@@ -254,15 +26,15 @@ section {
 	</section>
 
 	<section class="col-lg-3 col-md-5 col-sm-11" id="sec2">
-		<div class="Item">Beef</div>
+		<div class="Item" id="item2">Meat</div>
 
 		<div class="sec-text">
-		This section contains information about beef.
+		This section contains information about meat items.
 		</div>
 	</section>
 
 	<section class="col-lg-3 col-md-11 col-sm-11" id="sec3">
-		<div class="Item">Chinese</div>
+		<div class="Item" id="item3">Chinese</div>
 
 		<div class="sec-text">
 		This section contains information about chinese food items.
